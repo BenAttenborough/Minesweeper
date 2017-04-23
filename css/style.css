@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+#board {
+    /*border: 1px solid red;*/
+}
+
+.row {
+    /*border: 1px solid red;*/
+}
+
+.cell {
+    border: 1px solid;
+    border-color: #EEE #111 #111 #EEE;
+    background-color: #d8d8d8;
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+
+.selected {
+    background-color: #EEE;
+    border-color: #111 #eee #eee #111;
+}
+
+.mine {
+    background-color: red;
+}
+
+.detected {
+    background-color: yellow;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
